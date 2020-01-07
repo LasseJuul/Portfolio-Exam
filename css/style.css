@@ -14,9 +14,7 @@ li ul {
     margin-top: 10px;
 }
 
-ul {
-
-}
+ul {}
 
 p {
     font-size: 20px;
@@ -52,13 +50,22 @@ section {
 .imgp {
     height: 25vh;
     width: auto;
+    padding-top: 30px;
+    padding-bottom: 145px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav active {
     border-bottom: 5px solid black;
 }
 
-
+.linkbtn {
+    position: absolute;
+    padding-left: 30px;
+    bottom: 50px;
+}
 
 
 /*Links*/
