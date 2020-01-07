@@ -1,0 +1,12 @@
+/*Responsive desktop*/
+
+@media only screen and (min-width: 1039px) {
+    body {
+        display: grid;
+        grid-column-gap: 50px;
+        grid-template-columns: 50px 1fr 2fr 50px;
+        grid-template-areas:
+            ". header main side"
+            ". header main side"
+    }
+}
