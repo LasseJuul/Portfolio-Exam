@@ -8,7 +8,23 @@ h1 {
 }
 
 
+li ul {
+    font-size: 15px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
 
+ul {
+
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    padding-bottom: 50px;
+}
 
 
 /*CLASSES*/
@@ -21,6 +37,18 @@ h1 {
     border-bottom: black solid 5px;
 }
 
+.current2 {
+    border-bottom: black solid 1px;
+}
+
+.img {
+    width: 37vw;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+}
+
 .imgp {
     height: 25vh;
     width: auto;
@@ -29,7 +57,6 @@ h1 {
 .nav active {
     border-bottom: 5px solid black;
 }
-
 
 
 
@@ -70,8 +97,14 @@ nav ul a:hover {
     color: black;
 }
 
+li ul a:hover {
+    border-bottom: grey solid 2px;
+    color: black;
+}
 
-
+p a:hover {
+    color: red;
+}
 
 
 /*Section*/
